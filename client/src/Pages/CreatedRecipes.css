@@ -1,0 +1,54 @@
+.outerform_container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form_container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_container input,
+.form_container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.ingredients_container {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients_container input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.rightsideofinput {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add_button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.submit_button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
